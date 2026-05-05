@@ -34,7 +34,7 @@ public class Variables {
         */
 
         boolean isStudent = false;
-        boolean forSale = false;
+        boolean forSale = true;
         boolean isOnline = true;
 
         /*
@@ -52,13 +52,14 @@ public class Variables {
         String car = "Mustang Dark Horse";
         String color = "Orange";
 
-        System.out.println("My name is " + name);
-        System.out.println("I am " + age + " years old");
-        System.out.println("My cgpa is: " + cgpa);
-        System.out.println("I got an " + grade + " in Maths");
-        System.out.println("My favorite food is " + food);
-        System.out.println("My email is " + email);
-        System.out.println("My dream car is a " + car);
+        System.out.println("The price of the item is " + currency + price);
         System.out.println("In the year " + year + ", I got an " + color + " " + car + " and I registered it with " + name + " name");
+
+        if(forSale) {
+            System.out.println("There is a " + car + " for sale");
+        }
+        else{
+            System.out.println("The " + car + " is not for sale");
+        }
     }
 }
