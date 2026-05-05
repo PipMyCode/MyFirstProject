@@ -1,0 +1,67 @@
+public class Operators2 {
+    public static void main(String[] args) {
+
+        //int score = 15;
+
+        //score += 5;
+        //score -= 5;
+        // score *= 5;
+       // score /= 5;
+        // score %= 5;
+
+
+
+       // System.out.println(score);
+
+        //int count = 5;
+
+      //  count++;
+        //count--;
+
+       // System.out.println(count);
+
+
+       /*  int a = 10;
+        int b = 5;
+
+        System.out.println(a > b);
+        System.out.println(a < b);
+        System.out.println(a >= b);
+        System.out.println(a <= b);
+        System.out.println(a == b);
+        System.out.println(a != b);
+
+
+
+        int age = 18;
+
+        System.out.println(age == 18);
+        System.out.println(age > 18);
+
+        int age = 20;
+        boolean hasID = false;
+
+        System.out.println(age >= 18 && hasID == false);
+         */
+
+       int age = 20;
+       boolean hasID = true;
+
+        if(age >= 20 && hasID) {
+            System.out.println("You can enter");
+        }
+        else {
+            System.out.println("You can not enter");
+        }
+
+        if (age <20 && hasID)  {
+            System.out.println("You can enter");
+        }
+        else {
+            System.out.println("You can not enter");
+        }
+
+
+
+    }
+}
