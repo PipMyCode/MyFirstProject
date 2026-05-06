@@ -5,18 +5,28 @@ public class RandomNumbers {
 
         Random random = new Random();
 
-        int number;
-        double price;
+       // int number;
+        // double price;
+        boolean isHeads;
 
 
 
-        number = random.nextInt(1, 11);
-        price = random.nextDouble(2.50, 8.50);
+        // number = random.nextInt(1, 11);
+       // price = random.nextDouble(2.50, 8.50);
+        isHeads = random.nextBoolean();
 
 
 
-        System.out.println(number);
-        System.out.println(price);
+       // System.out.println(number);
+      //  System.out.println(price);
+       //  System.out.println(isHeads);
+
+        if (isHeads) {
+            System.out.println("HEADS");
+        }
+        else {
+            System.out.println("TAILS");
+        }
 
 
     }
