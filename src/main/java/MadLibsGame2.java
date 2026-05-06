@@ -35,7 +35,7 @@ public class MadLibsGame2 {
 
 
 
-        System.out.println("Today I went to an " + adjective1 + " amusement park.");
+        System.out.println("\n Today I went to an " + adjective1 + " amusement park.");
         System.out.println("In a store, I saw a " + noun1 + ".");
         System.out.println("The " + noun1 + " was so " + adjective2 + " and I " + verb1 + " stop " + verb2 + " at it.");
         System.out.println("I was " + adjective3 + "!!");
