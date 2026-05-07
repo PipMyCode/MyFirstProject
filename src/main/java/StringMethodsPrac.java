@@ -1,11 +1,11 @@
 public class StringMethodsPrac {
     public static void main(String[] args) {
 
-        String name = "Marcus";
+        String name = "password";
         String password = "oyindamola";
         String email = "ADIGUNMARCUS@gmail.com";
         String file = "report.pdf";
-
+/*
         System.out.println(name.length());
 
         if (password.length() < 8) {
@@ -51,6 +51,19 @@ public class StringMethodsPrac {
             System.out.println("Please enter your name");
         }
         else {
+            System.out.println("Hello " + name);
+        }
+
+        if (name.contains("d")) {
+            System.out.println("Name contains a d");
+        }
+        else {
+            System.out.println("Name does not contain a d");
+        }
+*/
+        if (name.equals("password")) {
+            System.out.println("Your name can't be password");
+        } else {
             System.out.println("Hello " + name);
         }
 
