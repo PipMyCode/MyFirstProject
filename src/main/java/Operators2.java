@@ -42,7 +42,6 @@ public class Operators2 {
         boolean hasID = false;
 
         System.out.println(age >= 18 && hasID == false);
-         */
 
        int age = 20;
        boolean hasID = true;
@@ -63,5 +62,35 @@ public class Operators2 {
 
 
 
+        boolean hasCash = false;
+        boolean hasCard = false;
+
+        if (hasCard || hasCash) {
+            System.out.println("You can pay");
+        }
+        else {
+            System.out.println("You can not pay");
+        }
+
+
+        boolean isLoggedIn = true;
+
+        if (!isLoggedIn) {
+            System.out.println("Please log in");
+        }
+        else {
+            System.out.println("You are logged in");
+        }
+*/
+
+        String username = "ciimarcus";
+        String password = "124";
+
+        if (username.equals("ciimarcus") && password.equals("1234")) {
+            System.out.println("Login successful");
+        }
+        else {
+            System.out.println("Wrong username or password");
+        }
     }
 }
