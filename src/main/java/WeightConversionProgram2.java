@@ -19,14 +19,14 @@ public class WeightConversionProgram2 {
         System.out.print("Choose an option: ");
         option = input.nextInt();
 
-        if (option == 1) {
+        if ( option == 1 ) {
             System.out.print("Enter weight in kg: ");
             weightInKg = input.nextDouble();
 
             weightInPounds = weightInKg * 2.20462;
             System.out.printf("\nWeight in pounds: %.2f lbs", weightInPounds);
 
-        } else if ( option == 2) {
+        } else if ( option == 2 ) {
             System.out.print("Enter weight in lbs: ");
             weightInPounds = input.nextDouble();
 
