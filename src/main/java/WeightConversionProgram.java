@@ -27,7 +27,7 @@ public class WeightConversionProgram {
             System.out.printf("Your weight in pounds is %.2flbs ", weightInPounds);
             if (weightInPounds >= 200) {
                 System.out.printf("\nYou need to hit the gym %s💀!!!", name);
-            } else if (weightInPounds >= 150 && weightInPounds <= 199) {
+            } else if (weightInPounds >= 150) {
                 System.out.printf("\nYou are getting there %s, keep it up", name);
             } else {
                 System.out.printf("\nYou are in good shape %s 😁!", name);
