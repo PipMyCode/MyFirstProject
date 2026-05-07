@@ -19,6 +19,8 @@ public class Main {
         System.out.println("I also just started, so i hope i get the hang of this");
 
 
+
+
     }
 
 }
