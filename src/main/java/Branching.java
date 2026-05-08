@@ -12,7 +12,7 @@ public class Branching {
         System.out.print("Enter your name: ");
         name = scanner.nextLine();
 
-        System.out.print("Enter you age: ");
+        System.out.print("Enter you age(s): ");
         age = scanner.nextInt();
         scanner.nextLine();
 
