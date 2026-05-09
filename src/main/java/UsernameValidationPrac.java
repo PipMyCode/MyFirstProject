@@ -24,8 +24,8 @@ public class UsernameValidationPrac {
             System.out.println("Username must be between 4 and 15 characters");
         }
 
-        else if (username.contains(" ")) {
-            System.out.println("Username cannot contain spaces");
+        else if (username.contains(" ") || username.contains("_")) {
+            System.out.println("Username cannot contain spaces or underscores");
         }
 
         else if (!hasNumber) {
@@ -33,7 +33,7 @@ public class UsernameValidationPrac {
         }
 
         else {
-            System.out.println("Username is valid");
+            System.out.println("Welcome " + username);
         }
 
 
