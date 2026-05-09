@@ -14,15 +14,15 @@ public class UsernameValidationPrac {
         boolean hasNumber =
                 username.matches(".*[0-9].*");
 
+        boolean validLength = username.length() >= 4 && username.length() <= 15;
+
 
         if (username.isBlank() ) {
             System.out.println("Username cannot be empty");
         }
-        else if (username.length() < 4)
-            System.out.println("Username is too short");
-
-        else if (username.length() > 15)
-            System.out.println("Username is too long");
+        else if (!validLength) {
+            System.out.println("Username must be between 4 and 15 characters");
+        }
 
         else if (username.contains(" ")) {
             System.out.println("Username cannot contain spaces");
