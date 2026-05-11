@@ -10,14 +10,25 @@ public class MethodsExercise {
        else System.out.println("Its an odd number!");
 
       //
-      String firstName = "Marcus";
-      String lastName = "Adigun";
+      String firstName = "Abaya";
+      String lastName = "Temidire";
       String fullName =  getFullName(firstName, lastName);
       System.out.println(fullName);
+
+
+      String name1 = "Abalawogun";
+      if (isLongName(name1)) {
+          System.out.println("Name is okay");
+      }
+      else {
+          System.out.println("Name is not okay");
+      }
 
       String name = "arcus";
       char initial = getInitial(name);
         System.out.println(initial);
+
+
 
     }
 
@@ -31,5 +42,10 @@ public class MethodsExercise {
 
     static char getInitial(String name) {
         return name.charAt(0);
+    }
+
+    static boolean isLongName(String name1) {
+        return name1.length() >= 7;
+
     }
 }
