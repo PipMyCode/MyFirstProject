@@ -1,26 +1,12 @@
 public class Main {
 
     public static void main(String[] args) {
-        // This IS MY FIRST JAVA PROGRAM
 
-        /*
-            This
-            is
-            a
-            multi-line
-            comment
+        Car car1 = new Car();
+        Car car2 = new Car();
 
-         */
-        System.out.println("I like Jollof rice");
-        System.out.println("It's really good!");
-        System.out.println("Buy me Jollof rice");
-
-        System.out.println("I am learning Java to be a Backend Engineer");
-        System.out.println("I also just started, so i hope i get the hang of this");
-
-
-
-
+        System.out.println(car1.make + " " + car1.model);
+        System.out.println(car2.make + " " + car2.model);
     }
 
 }
