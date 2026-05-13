@@ -5,9 +5,9 @@ public class DrumTestDrive {
 
         d.playSnare();
         d.playTopHat();
+        d.snare = false;
 
         if (d.snare == true) {
-            d.snare = false;
             d.playSnare();
         }
     }
