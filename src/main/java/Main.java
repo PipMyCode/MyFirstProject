@@ -2,11 +2,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car car1 = new Car();
-        Car car2 = new Car();
+        Student student1 = new Student("Marcus", 20, 3.2);
+        Student student2 = new Student("Ben", 50, 1.4);
 
-        System.out.println(car1.make + " " + car1.model);
-        System.out.println(car2.make + " " + car2.model);
+
+
+        student1.study();
+        student2.study();
+
     }
 
 }
