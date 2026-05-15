@@ -1,28 +1,20 @@
 public class Car {
 
-    // Attributes. this that an object has
-    String make = "Toyota";
-    String model = "Crown";
-    int year = 2026;
-    double price = 50000.99;
-    boolean isNew = true;
-    boolean isRunning = false;
 
+    String make;
+    String model;
+    int year;
+    String color;
 
-    void start() {
-        isRunning = true;
-        System.out.println("You start the car!");
-    }
-    void stop() {
-        isRunning = false;
-        System.out.println("You stop the car!");
+    Car(String make, String model, int year, String color){
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
     }
 
-    void drive() {
-        System.out.println("You drive the " + model);
-    }
-
-    void brake() {
-        System.out.println("You brake the " + model);
+    @Override
+    public String toString() {
+        return this.color + " " + this.make + " " + this.model + " " + this.year;
     }
 }
