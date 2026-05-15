@@ -1,14 +1,8 @@
-public class Dog {
-    int size;
-    String breed;
-    String name;
+public class Dog extends Animal{
 
-    void bark() {
-        System.out.println("Ruff! Ruff!");
-    }
-
-    void walk(){
-        System.out.println("Walking...");
+    @Override
+    void giveBirthAlive () {
+        System.out.println("animal is giving birth");
     }
 
 }

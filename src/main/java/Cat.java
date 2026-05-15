@@ -1,8 +1,7 @@
 public class Cat extends Animal{
 
-    int lives = 1;
-
-    void speak(){
-        System.out.println("Meow");
+    @Override
+    void giveBirthAlive() {
+        System.out.println("animal is giving birth");
     }
 }
